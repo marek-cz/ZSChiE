@@ -7,7 +7,7 @@ https://github.com/Ameba8195/Arduino/blob/master/hardware_v2/cores/arduino/font5
 #define _FONT5X7_H_
 
 #include <stdint.h>
-
+const uint8_t numberOfBytesInChar = 5;
 /*
  * Take 'A' as example.
  * 'A' use 5 byte to denote:
